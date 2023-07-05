@@ -18,7 +18,7 @@ export const Bio = ({ items, Heading }) => {
                 <p>{val.para3}</p>
               </div>
               <div className="about_details_bio_box_item">
-                <img src={val.images} alt="" />
+                <img className="img_about" src={val.images} alt="" />
               </div>
             </div>
           </>
